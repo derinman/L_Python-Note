@@ -1,6 +1,7 @@
 import asyncio
 import time #可看22_Date Datetime
 
+#此範例為舊的寫法
 
 def hello():
     time.sleep(1)
