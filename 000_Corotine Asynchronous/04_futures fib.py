@@ -7,6 +7,9 @@ def fib(n):
         return 1
     return fib(n - 1) + fib(n - 2)
 
+#ThreadPoolExecutor適合IO密集
+#ProcessPoolExecutor適合CPU密集
+
 def process():
     with concurrent.futures.ProcessPoolExecutor() as executor:
         for number, fib_value in zip(FIBS, executor.map(fib, FIBS)):
