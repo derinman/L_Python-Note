@@ -1,0 +1,14 @@
+2021-07-11 21:06:02,586 - root - INFO - __main__ start
+2021-07-11 21:06:02,586 - root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "c:\Users\User\L_Python-Note\0_Log logging Package\02_Log Capturing Stack Traces Exception.py", line 19, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2021-07-11 21:06:02,586 - root - INFO - __main__ end
+2021-07-11 21:06:09,223 - root - INFO - __main__ start
+2021-07-11 21:06:09,223 - root - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "c:\Users\User\L_Python-Note\0_Log logging Package\02_Log Capturing Stack Traces Exception.py", line 19, in <module>
+    c = a / b
+ZeroDivisionError: division by zero
+2021-07-11 21:06:09,224 - root - INFO - __main__ end

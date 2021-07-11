@@ -1,0 +1,20 @@
+2021-07-11 21:39:02,832 - __main__ - WARNING - This is a warning
+2021-07-11 21:39:02,832 - __main__ - ERROR - This is an error
+2021-07-11 21:39:02,832 - module - WARNING - This is a warning from module
+2021-07-11 21:39:02,832 - module - ERROR - This is an error from module
+2021-07-11 21:39:12,052 - __main__ - WARNING - This is a warning
+2021-07-11 21:39:12,052 - __main__ - ERROR - This is an error
+2021-07-11 21:39:12,052 - module - WARNING - This is a warning from module
+2021-07-11 21:39:12,052 - module - ERROR - This is an error from module
+2021-07-11 21:39:20,255 - __main__ - WARNING - This is a warning
+2021-07-11 21:39:20,255 - __main__ - ERROR - This is an error
+2021-07-11 21:39:20,255 - module - WARNING - This is a warning from module
+2021-07-11 21:39:20,256 - module - ERROR - This is an error from module
+2021-07-11 21:40:05,498 - __main__ - WARNING - This is a warning
+2021-07-11 21:40:05,498 - __main__ - ERROR - This is an error
+2021-07-11 21:40:05,498 - module - WARNING - This is a warning from module
+2021-07-11 21:40:05,498 - module - ERROR - This is an error from module
+2021-07-11 21:40:53,200 - __main__ - WARNING - This is a warning
+2021-07-11 21:40:53,200 - __main__ - ERROR - This is an error
+2021-07-11 21:40:53,200 - module - WARNING - This is a warning from module
+2021-07-11 21:40:53,200 - module - ERROR - This is an error from module

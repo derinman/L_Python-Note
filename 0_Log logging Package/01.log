@@ -1,0 +1,12 @@
+2021-07-11 21:01:15,039 - root - INFO - This is an info message
+2021-07-11 21:01:15,039 - root - WARNING - This is a warning message
+2021-07-11 21:01:15,039 - root - ERROR - This is an error message
+2021-07-11 21:01:15,039 - root - CRITICAL - This is a critical message
+2021-07-11 21:01:16,511 - root - INFO - This is an info message
+2021-07-11 21:01:16,511 - root - WARNING - This is a warning message
+2021-07-11 21:01:16,511 - root - ERROR - This is an error message
+2021-07-11 21:01:16,511 - root - CRITICAL - This is a critical message
+2021-07-11 21:01:18,997 - root - INFO - This is an info message
+2021-07-11 21:01:18,997 - root - WARNING - This is a warning message
+2021-07-11 21:01:18,997 - root - ERROR - This is an error message
+2021-07-11 21:01:18,997 - root - CRITICAL - This is a critical message
