@@ -1,0 +1,26 @@
+-concurrency libriray in python: Multiprocessing, Threading, AsyncIO
+    (read: Multiprocessing VS Threading VS AsyncIO.pdf)
+
+-Multiprocessing for CPU-Bound
+-Threading, AsyncIO for I/O Bound
+
+-Multiprocessing: 
+    Multiple processes
+    high CPU utilization
+
+-Threading:
+    Single process
+    multiple threads
+    pre-emptive multitasking
+    OS decides task switching
+
+-AsyncIO:
+    Single process
+    single thread
+    cooperative multitasking
+    tasks cooperatively decide switching
+
+-AsyncIO 
+    using coroutine(協程) accomplish concurrency
+    'yield from' is old lagecy, 'yield from' is like 'await' in AsyncIO
+
