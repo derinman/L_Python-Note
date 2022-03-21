@@ -20,7 +20,9 @@
     cooperative multitasking
     tasks cooperatively decide switching
 
--AsyncIO 
+-AsyncIO
+    single thread
     using coroutine(協程) accomplish concurrency
-    'yield from' is old lagecy, 'yield from' is like 'await' in AsyncIO
+    'yield from' is old lagecy(before py3.4), 'yield from' is like 'await' in AsyncIO
+    see img 'yield from subgenerator.jpg'
 
