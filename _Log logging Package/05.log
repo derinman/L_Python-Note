@@ -1,0 +1,52 @@
+25-06-2022 06:26:22 : INFO : 05_Log Config File : addition : 58 : (Process Details : (10328, MainProcess), Thread Details : (13668, MainThread))
+Log : Addition Function Completed Successfully
+25-06-2022 06:26:22 : INFO : 05_Log Config File : <module> : 69 : (Process Details : (10328, MainProcess), Thread Details : (13668, MainThread))
+Log : Addition of 10 & 20 is : 30.0
+
+25-06-2022 06:26:22 : WARNING : 05_Log Config File : addition : 51 : (Process Details : (10328, MainProcess), Thread Details : (13668, MainThread))
+Log : Warning : Parameter A is passed as String. Future versions won't support it.
+25-06-2022 06:26:22 : INFO : 05_Log Config File : addition : 58 : (Process Details : (10328, MainProcess), Thread Details : (13668, MainThread))
+Log : Addition Function Completed Successfully
+25-06-2022 06:26:22 : INFO : 05_Log Config File : <module> : 72 : (Process Details : (10328, MainProcess), Thread Details : (13668, MainThread))
+Log : Addition of '20' & 20 is : 40.0
+
+25-06-2022 06:30:26 : INFO : 05_Log Config File : addition : 56 : (Process Details : (20024, MainProcess), Thread Details : (3436, MainThread))
+Log : Addition Function Completed Successfully
+25-06-2022 06:30:26 : INFO : 05_Log Config File : <module> : 67 : (Process Details : (20024, MainProcess), Thread Details : (3436, MainThread))
+Log : Addition of 10 & 20 is : 30.0
+
+25-06-2022 06:30:26 : WARNING : 05_Log Config File : addition : 49 : (Process Details : (20024, MainProcess), Thread Details : (3436, MainThread))
+Log : Warning : Parameter A is passed as String. Future versions won't support it.
+25-06-2022 06:30:26 : INFO : 05_Log Config File : addition : 56 : (Process Details : (20024, MainProcess), Thread Details : (3436, MainThread))
+Log : Addition Function Completed Successfully
+25-06-2022 06:30:26 : INFO : 05_Log Config File : <module> : 70 : (Process Details : (20024, MainProcess), Thread Details : (3436, MainThread))
+Log : Addition of '20' & 20 is : 40.0
+
+25-06-2022 06:30:43 : INFO : 05_Log Config File : addition : 56 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : Addition Function Completed Successfully
+25-06-2022 06:30:43 : INFO : 05_Log Config File : <module> : 67 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : Addition of 10 & 20 is : 30.0
+
+25-06-2022 06:30:43 : WARNING : 05_Log Config File : addition : 49 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : Warning : Parameter A is passed as String. Future versions won't support it.
+25-06-2022 06:30:43 : INFO : 05_Log Config File : addition : 56 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : Addition Function Completed Successfully
+25-06-2022 06:30:43 : INFO : 05_Log Config File : <module> : 70 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : Addition of '20' & 20 is : 40.0
+
+25-06-2022 06:30:43 : INFO : module_for_05 : doSomethingFromModule : 10 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is a info from module
+25-06-2022 06:30:43 : INFO : module_for_05 : doSomethingFromModule : 10 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is a info from module
+25-06-2022 06:30:43 : WARNING : module_for_05 : doSomethingFromModule : 11 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is a warning from module
+25-06-2022 06:30:43 : WARNING : module_for_05 : doSomethingFromModule : 11 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is a warning from module
+25-06-2022 06:30:43 : ERROR : module_for_05 : doSomethingFromModule : 12 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is an error from module
+25-06-2022 06:30:43 : ERROR : module_for_05 : doSomethingFromModule : 12 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is an error from module
+25-06-2022 06:30:43 : CRITICAL : module_for_05 : doSomethingFromModule : 13 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is an error from critical
+25-06-2022 06:30:43 : CRITICAL : module_for_05 : doSomethingFromModule : 13 : (Process Details : (18080, MainProcess), Thread Details : (8984, MainThread))
+Log : This is an error from critical

@@ -1,20 +1,36 @@
 import logging
 from logging import config
 
+from module_for_05 import doSomethingFromModule
+
 # 更多範例請參考以下網址(L_Python裡面也有存):
 # https://coderzcolumn.com/tutorials/python/logging-config-simple-guide-to-configure-loggers-from-dictionary-and-config-files-in-python
 
 log_config = {
     "version":1,
-    "root":{
-        "handlers" : ["console"],
-        "level": "DEBUG"
+    "loggers":{
+        "":{ #root logger
+            "handlers" : ["console","file"],
+            "level": "DEBUG",
+            "propagate": True
+        },
+        "module_for_05":{ #logger = logging.getLogger(__name__) in module_for_05
+            "handlers" : ["console","file"],
+            "level": "DEBUG",
+            "propagate": True
+        }
     },
     "handlers":{
         "console":{
             "formatter": "std_out",
             "class": "logging.StreamHandler",
-            "level": "DEBUG"
+            "level": "WARNING"
+        },
+        "file":{
+            "formatter":"std_out",
+            "class":"logging.FileHandler",
+            "level":"INFO",
+            "filename":"_Log logging Package/05.log"
         }
     },
     "formatters":{
@@ -53,5 +69,4 @@ if __name__ == "__main__":
     result = addition("20",20)
     logging.info("Addition of {} & {} is : {}\n".format("'20'",20, result))
 
-    result = addition("A",20)
-    logging.info("Addition of {} & {} is : {}".format("A",20, result))
+    doSomethingFromModule()
