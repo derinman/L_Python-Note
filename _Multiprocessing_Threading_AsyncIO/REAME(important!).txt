@@ -11,13 +11,13 @@
 -Threading:
     Single process
     multiple threads
-    pre-emptive multitasking
+    pre-emptive multitasking(先佔式多任務)
     OS decides task switching
 
 -AsyncIO:
     Single process
     single thread
-    cooperative multitasking
+    cooperative multitasking(協調式多任務)
     tasks cooperatively decide switching
 
 -AsyncIO
