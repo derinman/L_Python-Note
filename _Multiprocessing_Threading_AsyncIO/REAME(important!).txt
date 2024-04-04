@@ -1,3 +1,28 @@
+
+1.1 併發執⾏和並⾏執⾏
+
+並⾏(parallel):
+指的是互不⼲擾的在同⼀時刻做多件事，對應Python中的就是多進程（multi-processing），
+可以利⽤多核處理器的優勢，通常應⽤於 CPU heavy 的場景，比如計算密集型任務。
+
+併發(concurrency): 
+指的是同時做某些事，但是強調同⼀時段做多件事，對應Python中就是多線程（multi-threading）或者協程
+（Coroutine），通常應⽤於 I/O 操作頻繁的場景，比如發起網絡請求。
+
+1.2 同步調⽤和異步調⽤
+
+同步調⽤和異步調⽤是提交任務的兩種⽅式。
+
+同步調⽤：提交任務，原地等待任務執⾏結束，拿到任務返回結果。再執⾏下⼀⾏代碼，會導致任務串⾏執⾏。
+異步調⽤：提交任務，不進⾏原地等待，直接執⾏下⼀⾏代碼，任務併發執⾏。
+
+1.3 阻塞狀態和非阻塞狀態
+
+阻塞運⾏和非阻塞運⾏，是程序的運⾏狀態。
+
+阻塞：程序遇到IO操作時，進⾏原地等待，即程序處於阻塞態。
+非阻塞：程序沒有進⾏IO操作時，程序處於運⾏態，即就緒態。
+
 -concurrency libriray in python: Multiprocessing, Threading, AsyncIO
     (read: Multiprocessing VS Threading VS AsyncIO.pdf)
 
